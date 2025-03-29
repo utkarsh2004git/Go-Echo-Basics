@@ -1,0 +1,42 @@
+# Go binary files
+/bin/
+/obj/
+
+# Dependency directories
+/vendor/
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go workspace file
+go.work
+go.work.sum
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.iml
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Coverage reports
+*.out
+
+# Ignore test results
+*.test
+
+# Temporary files from Go modules
+*.mod
+*.sum
+
+# Ignore any file created by Go during build
+/build/
